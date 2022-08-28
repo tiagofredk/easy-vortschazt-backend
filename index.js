@@ -14,7 +14,7 @@ const connectDB = require('./db/db');
 app.get("/", (req, res)=> {
     res.send({
         status: 200,
-        message: "Backend is working"
+        message: "Status: ok"
     })
 })
 app.use(session);
